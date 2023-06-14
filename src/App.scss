@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  .input {
+    display: flex;
+    justify-content: space-between;
+    input {
+      width: 350px;
+    }
+  }
+  .btn {
+    display: flex;
+    justify-content: space-between;
+  }
+}
